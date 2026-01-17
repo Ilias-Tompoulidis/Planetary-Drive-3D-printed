@@ -1,5 +1,5 @@
 g_ratio = 5
-sun_teeth = 12
+sun_teeth = 16
 module = 1.5
 
 n2_n1 = g_ratio/2 -1
