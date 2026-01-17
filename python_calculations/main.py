@@ -1,5 +1,5 @@
 g_ratio = 5
-sun_teeth = 10
+sun_teeth = 12
 module = 1.5
 
 n2_n1 = g_ratio/2 -1
@@ -28,4 +28,7 @@ print(f"Reference diameter: {planet_ref_diam}")
 
 print("\nRing gears:")
 print(f"Teeth:{ring_teeth}")
-print(f"Reference diameter: {ring_ref_diam}")
+print(f"Reference diameter: {ring_ref_diam}\n")
+
+sun_planet_center_dist = sun_ref_diam/2 + planet_ref_diam/2
+print(f"Sun-planet center distance: {sun_planet_center_dist}")
